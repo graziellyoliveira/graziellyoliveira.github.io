@@ -1,5 +1,6 @@
 body {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 header{
     padding-top:0.1%;
     background-color: #ffffff;
@@ -59,7 +60,7 @@ input:focus, textarea:focus {
 }
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 100px; /* mesmo tamanho que os elementos do tipo label */
+    padding-left: 200px; /* mesmo tamanho que os elementos do tipo label */
 
 }
 button {

@@ -58,12 +58,12 @@ input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #0d0628;
 }
-.button {
-    /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 200px; /* mesmo tamanho que os elementos do tipo label */
-
-}
-button {
-    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
-    margin-left: .5em;
+.button{
+    display: block;
+    margin: 0 auto;
+    background-color: #9A348e;
+    color: white;
+    padding: 2px 30px;
+    border-radius: 5px;
+    cursor: pointer;
 }

@@ -32,9 +32,9 @@ label {
     width: 90px;
     text-align: right;
 }
-nput, textarea {
+input, textarea {
     /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
-    font: 1em sans-serif;
+    font: 1em 'Din Next';
 
     /* Para dar o mesmo tamanho a todos os campo de texto */
     width: 300px;

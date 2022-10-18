@@ -20,6 +20,10 @@ ul li{
     text-align: right;
     color: black;
 }
+h2 {text-align: center; 
+    color: #da627d;  
+    font-size:30px 
+}
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;

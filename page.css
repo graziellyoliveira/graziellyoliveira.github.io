@@ -41,13 +41,11 @@ form div + div {
 label {
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
     display: inline-block;
-    width: 50px;
+    width: 55px;
     text-align: left;
 }
 input, textarea {
-    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
-    font: 1em sans-serif;
-
+    
     /* Para dar o mesmo tamanho a todos os campo de texto */
     width: 300px;
     -moz-box-sizing: border-box;

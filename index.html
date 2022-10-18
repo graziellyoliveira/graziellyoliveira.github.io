@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page.css">
     <title>Acessibilidade na Real</title>
 </head>
+<!-- comentário html -->
 <body style="background-color : #f9dbbd;">
     <header>
         <nav>
             <ul>
-                <li class="logo" ><a href="">Logo</a><li>
+                <li clss="logo" ><a href="">Logo</a><li>
+                    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
                 <li><a href="" style="color: black;">Quem somos</a></li>
                 <li><a href="" style="color: black;">Conheça seus direitos</a></li>
                 <li><a href="" style="color: black;">Dúvidas</a></li>
@@ -19,5 +21,56 @@
             <hr>
         </nav>
     </header>
+    <h2>Crie sua conta</h2>
+
+    <form>
+        <fieldset>
+        <legend>Dados da conta:</legend>
+              <label for="fname">Nome:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <br>
+      
+              <label for="lname">Sobrenome:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+              <br>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Endereço:</legend>
+              <label for="street">Rua:</label><br>
+              <input type="text" id="street" name="street"><br>
+              <br>
+                    
+            <label for="city">Cidade:</label><br>
+              <input type="text" id="city" name="city"><br>
+              <br>
+            
+              <label for="state">Estado:</label>
+              <select id="state" name="state">
+                   <option value="MG" selected>MG</option>
+                  <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+                
+              </select><br>  
+            <br>
+    
+      </fieldset>
+      <br>
+      
+      <fieldset>
+      <legend>Dados de login:</legend>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <br>
+      
+        <label for="password">Senha:</label><br>
+        <input type="password" placeholder="Escolha uma senha" id="password" required>
+        <input type="password" placeholder="Repita a senha" id="confirm_password" required>
+    </form><br>
+    <br>
+    
+    
+    <button type="button" onclick="alert('Sua conta foi criada com sucesso!')">Criar conta</button>
+    
 </body>
 </html>

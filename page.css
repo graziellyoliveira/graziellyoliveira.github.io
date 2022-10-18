@@ -60,8 +60,13 @@ input:focus, textarea:focus {
 }
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 200px; /* mesmo tamanho que os elementos do tipo label */
-
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
 }
 button {
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/

@@ -58,12 +58,16 @@ input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #0d0628;
 }
-.button{
-    display: block;
-    margin: 0 auto;
-    background-color: #9A348e;
+.button {
+    padding-left: 100px; 
+    background-color: #9a348e; 
+    border: none;
     color: white;
-    padding: 2px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 40px;
+  }

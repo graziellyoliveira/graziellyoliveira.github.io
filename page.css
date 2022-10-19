@@ -71,3 +71,6 @@ input:focus, textarea:focus {
     position: relative;
     left: 40px;
   }
+  button {
+    margin-left: .5em;
+}
